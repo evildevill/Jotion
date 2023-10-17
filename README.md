@@ -1,11 +1,6 @@
-# Fullstack Notion Clone: Next.js 13, React, Convex, Tailwind | Full Course 2023
+# Fullstack Notion Clone: Next.js 13, React, Convex, Tailwind
 
-![Copy of Copy of Copy of Fullstack Twitter Clone (6)](https://github.com/AntonioErdeljac/notion-clone-tutorial/assets/23248726/66bcfca3-93bf-4aa4-950d-f98c020e1156)
-
-
-This is a repository for Fullstack Notion Clone: Next.js 13, React, Convex, Tailwind | Full Course 2023
-
-[VIDEO TUTORIAL](https://www.youtube.com/watch?v=ZbX4Ok9YX94)
+This is a repository for Fullstack Notion Clone: Next.js 13, React, Convex, Tailwind
 
 Key Features:
 
@@ -34,7 +29,7 @@ Key Features:
 ### Cloning the repository
 
 ```shell
-git clone https://github.com/AntonioErdeljac/notion-clone-tutorial.git
+git clone https://github.com/evildevill/Jotion.git
 ```
 
 ### Install packages
@@ -49,6 +44,7 @@ npm i
 ```js
 # Deployment used by `npx convex dev`
 CONVEX_DEPLOYMENT=
+CONVEX_DEPLOY_KEY=
 NEXT_PUBLIC_CONVEX_URL=
 
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
@@ -62,7 +58,6 @@ EDGE_STORE_SECRET_KEY=
 
 ```shell
 npx convex dev
-
 ```
 
 ### Start the app
